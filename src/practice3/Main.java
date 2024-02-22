@@ -28,8 +28,9 @@ public class Main {
                 }
             });
             thread2.start();
+            thread2.join();
         }
-        System.out.println(mySet.size());
+        System.out.println("Размер множества после добавления и удаления элеметов: " + mySet.size());
 
         ExecutorService executorService = Executors.newFixedThreadPool(2);
         executorService.execute(() -> {
@@ -40,6 +41,6 @@ public class Main {
         });
         executorService.shutdown();
         executorService.awaitTermination(1, TimeUnit.MINUTES);
-        System.out.println(0 == mySet.size());
+        System.out.println("Размер списка после добавления и удаления элеметов: " + myList.size());
     }
 }
