@@ -6,7 +6,7 @@ import java.util.concurrent.TimeUnit;
 
 public class Main {
     public static void main(String[] args) throws InterruptedException {
-        ThreadSafeSet<Integer> mySet = new ThreadSafeSet<>(10);
+        ThreadSafeSet<Integer> mySet = new ThreadSafeSet<>(5);
         ThreadSafeList<String> myList = new ThreadSafeList<>();
 
         for (int i = 0; i < 10; i++) {
