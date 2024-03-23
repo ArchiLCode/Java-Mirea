@@ -10,6 +10,6 @@ public class Main {
 
         context.setState(new StateC());
         context.handle(); // Output: State C
-        ///
+        /// TEST 
     }
 }
