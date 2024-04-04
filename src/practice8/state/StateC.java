@@ -5,4 +5,5 @@ public class StateC implements State {
     public void handle() {
         System.out.println("State C");
     }
+    // test
 }
