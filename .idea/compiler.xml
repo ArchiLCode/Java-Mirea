@@ -4,5 +4,13 @@
     <annotationProcessing>
       <profile default="true" name="Default" enabled="true" />
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="practice9" target="19" />
+      <module name="practice9.main" target="19" />
+      <module name="practice9.test" target="19" />
+      <module name="untitled" target="20" />
+      <module name="untitled.main" target="20" />
+      <module name="untitled.test" target="20" />
+    </bytecodeTargetLevel>
   </component>
 </project>
