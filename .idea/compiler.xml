@@ -3,14 +3,26 @@
   <component name="CompilerConfiguration">
     <annotationProcessing>
       <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="practice10-spring" />
+      </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="practice9" target="19" />
-      <module name="practice9.main" target="19" />
-      <module name="practice9.test" target="19" />
+      <module name="org.example.practice10" target="19" />
+      <module name="practice10" target="19" />
+      <module name="practice10.main" target="19" />
+      <module name="practice10.test" target="19" />
       <module name="untitled" target="20" />
       <module name="untitled.main" target="20" />
       <module name="untitled.test" target="20" />
     </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="practice10-spring" options="-parameters" />
+    </option>
   </component>
 </project>

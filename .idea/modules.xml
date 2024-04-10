@@ -3,9 +3,9 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/java-mirea.iml" filepath="$PROJECT_DIR$/java-mirea.iml" />
-      <module fileurl="file://$PROJECT_DIR$/practice9.iml" filepath="$PROJECT_DIR$/practice9.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/practice9.main.iml" filepath="$PROJECT_DIR$/.idea/modules/practice9.main.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/practice9.test.iml" filepath="$PROJECT_DIR$/.idea/modules/practice9.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/practice10.iml" filepath="$PROJECT_DIR$/practice10.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/practice10.main.iml" filepath="$PROJECT_DIR$/.idea/modules/practice10.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/practice10.test.iml" filepath="$PROJECT_DIR$/.idea/modules/practice10.test.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/untitled.main.iml" filepath="$PROJECT_DIR$/.idea/modules/untitled.main.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/untitled.test.iml" filepath="$PROJECT_DIR$/.idea/modules/untitled.test.iml" />
     </modules>
