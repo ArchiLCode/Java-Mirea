@@ -1,0 +1,7 @@
+program:
+  student:
+    name: Artem
+    last_name: Logvinov
+    group: IKBO-20-22
+server:
+  port: 0
