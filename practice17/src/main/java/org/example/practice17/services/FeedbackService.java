@@ -1,8 +1,8 @@
-package org.example.practice16.services;
+package org.example.practice17.services;
 
 import lombok.AllArgsConstructor;
-import org.example.practice16.entities.Feedback;
-import org.example.practice16.repositories.FeedbackRepository;
+import org.example.practice17.entities.Feedback;
+import org.example.practice17.repositories.FeedbackRepository;
 import org.springframework.stereotype.Service;
 
 import java.sql.SQLException;
@@ -22,5 +22,8 @@ public class FeedbackService {
 
     public boolean deleteFeedback(int id) throws SQLException {
         return feedbackRepository.deleteFeedback(id);
+    }
+    public List<Feedback> getSpecificFeedback(String name) {
+        return feedbackRepository.getSpecificFeedback(name);
     }
 }

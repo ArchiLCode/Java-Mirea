@@ -14,6 +14,7 @@
         <module name="practice11" />
         <module name="practice10-spring" />
         <module name="practice16" />
+        <module name="practice17" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -35,6 +36,7 @@
       <module name="practice14" options="-parameters" />
       <module name="practice15" options="-parameters" />
       <module name="practice16" options="-parameters" />
+      <module name="practice17" options="-parameters" />
     </option>
   </component>
 </project>
