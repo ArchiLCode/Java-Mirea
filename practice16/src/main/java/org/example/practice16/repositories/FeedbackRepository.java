@@ -34,7 +34,7 @@ public class FeedbackRepository {
 
     public Feedback addFeedback(Feedback feedback) throws SQLException {
         Connection connection = ds.getConnection();
-        PreparedStatement ps = connection.prepareStatement("insert into subjects (id, name, description, product_id) values (?, ?, ?, ?)", new String[] {"id"});
+        PreparedStatement ps = connection.prepareStatement("insert into feedbacks (id, name, description, product_id) values (?, ?, ?, ?)", new String[] {"id"});
         ps.setInt(1, feedback.getId());
         ps.setString(2, feedback.getName());
         ps.setString(3, feedback.getDescription());

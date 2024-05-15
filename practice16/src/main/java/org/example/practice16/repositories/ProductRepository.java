@@ -25,6 +25,15 @@ public class ProductRepository {
                         ")"
         );
         ps.execute();
+        PreparedStatement ps2 = connection.prepareStatement(
+                "CREATE TABLE IF NOT EXISTS subjects (" +
+                        "id INT PRIMARY KEY," +
+                        "description VARCHAR(100) NOT NULL," +
+                        "product_id INT," +
+                        "FOREIGN KEY (product_id) REFERENCES products(id)" +
+                        ")"
+        );
+        ps2.execute();
     }
 
     public List<Product> getProducts() throws SQLException {
