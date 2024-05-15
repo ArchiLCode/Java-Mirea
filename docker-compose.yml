@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  db:
+    image: postgres:16
+    container_name: postgres_db_15
+    ports:
+      - "6666:5432"
+    environment:
+      POSTGRES_DB: game
+      POSTGRES_PASSWORD: pass
+      POSTGRES_USER: admin
