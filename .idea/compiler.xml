@@ -16,6 +16,13 @@
         <module name="practice16" />
         <module name="practice17" />
       </profile>
+      <profile name="Gradle Imported" enabled="true">
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="false">
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.projectlombok/lombok/1.18.32/17d46b3e205515e1e8efd3ee4d57ce8018914163/lombok-1.18.32.jar" />
+        </processorPath>
+        <module name="practice18.main" />
+      </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="org.example.practice10" target="19" />
