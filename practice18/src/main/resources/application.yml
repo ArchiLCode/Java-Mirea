@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: practice15
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    username: admin
+    password: pass
+    url: jdbc:postgresql://localhost:6666/postgres
+  jpa:
+    show-sql: true
+server:
+  port: 5556
