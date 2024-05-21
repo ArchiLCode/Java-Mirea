@@ -12,7 +12,9 @@
         <module name="practice12" />
         <module name="practice13" />
         <module name="practice11" />
+        <module name="practice20" />
         <module name="practice10-spring" />
+        <module name="practice19" />
         <module name="practice16" />
         <module name="practice17" />
       </profile>
@@ -44,6 +46,8 @@
       <module name="practice15" options="-parameters" />
       <module name="practice16" options="-parameters" />
       <module name="practice17" options="-parameters" />
+      <module name="practice19" options="-parameters" />
+      <module name="practice20" options="-parameters" />
     </option>
   </component>
 </project>
