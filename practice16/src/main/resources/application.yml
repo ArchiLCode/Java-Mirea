@@ -1,6 +1,6 @@
 spring:
   application:
-    name: practice15
+    name: practice16
   datasource:
     driver-class-name: org.postgresql.Driver
     username: admin
