@@ -1,0 +1,24 @@
+spring:
+  application:
+    name: practice22
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    username: admin
+    password: pass
+    url: jdbc:postgresql://localhost:6666/postgres
+  jpa:
+    show-sql: true
+  mail:
+    host: smtp.gmail.com
+    port: 587
+    username: artemartem3309@gmail.com
+    password: kclr adtz xeew gzmr
+    properties:
+      mail:
+        smtp:
+          auth: true
+          starttls:
+            enable: true
+
+server:
+  port: 5556
